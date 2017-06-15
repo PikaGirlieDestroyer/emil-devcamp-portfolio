@@ -35,4 +35,13 @@ class PortfoliosController < ApplicationController
       end
     end
   end
+  
+  def show 
+      @portfolio_item = Portfolio.find(params[:id])
+        unless params[:progress_attachments].nil?
+           params[:progress_attachments]['image'].each do |a|
+            @progress_attachment = @progress.progress_attachments.create!(:image => a)
+          end 
+        end
+  end
 end
