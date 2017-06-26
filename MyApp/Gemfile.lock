@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/PikaGirlieDestroyer/emil_seyidov_view_tool
-  revision: 7ab6030911d3f89473580bdea23c0bb313e46dcf
-  specs:
-    emil_seyidov_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -69,6 +63,7 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    emil_seyidov_view_tool (0.1.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -193,7 +188,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
-  emil_seyidov_view_tool!
+  emil_seyidov_view_tool (~> 0.1.0)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
