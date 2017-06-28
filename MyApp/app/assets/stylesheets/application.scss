@@ -178,7 +178,7 @@ body {
 
 .mastfoot {
   position: relative;
-  top: 200px;
+  top: 100px;
 }
 
 // .row {
@@ -195,4 +195,21 @@ body {
 
 .register-text {
   text-align: right;
+}
+
+
+
+
+
+
+
+
+
+/* Login styles */
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+  margin-top: 100px;
 }
