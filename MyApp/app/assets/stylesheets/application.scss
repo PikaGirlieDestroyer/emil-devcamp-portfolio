@@ -161,3 +161,34 @@ body {
   }
 }
 
+/*
+* Custom Styles
+*/
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.card {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mastfoot {
+  position: relative;
+  top: 200px;
+}
+
+// .row {
+//   margin-top: 100px;
+// }
+
+// .contact-header {
+//   margin-top: 200px;
+// }
+
+.auth-links a{
+  color: black;
+}
