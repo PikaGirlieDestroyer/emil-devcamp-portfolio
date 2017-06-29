@@ -20,4 +20,3 @@ end
   alert("hello there");
 ```
 
-HIIIIII
