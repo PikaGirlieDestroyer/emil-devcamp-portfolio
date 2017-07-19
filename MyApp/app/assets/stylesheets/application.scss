@@ -34,6 +34,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -71,7 +72,9 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  color: red;
 }
+
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -177,7 +180,7 @@ body {
 }
 
 .mastfoot {
-  position: relative;
+  position: fixed;
   // // top: -10px;
   // padding: 0;
   // height: 0;
@@ -186,7 +189,7 @@ body {
 }
 
 .contact-header {
-  margin-top: 70px;
+  // margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -228,6 +231,7 @@ body {
 .app-footer {
   color: white;
 }
+
 
 /* Login styles */
 
