@@ -161,7 +161,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -176,8 +176,8 @@ body {
 
 .card {
   position: relative;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mastfoot {
@@ -240,5 +240,20 @@ body {
   width: 22rem;
   margin: 0 auto;
   float: none;
-  margin-top: 100px;
+  // margin-top: 100px;
 }
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}  
+
+.tech-news a {
+  color: green;
+  margin: 20px;
+}  
+
+.tech-news > .card{
+  padding: 30px;
+  margin: 0, 0;
+}  
