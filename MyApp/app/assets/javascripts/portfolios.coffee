@@ -1,3 +1,4 @@
+
 ready = undefined
 set_positions = undefined
 
@@ -7,7 +8,7 @@ set_positions = ->
     return
   return
 
-ready = -> 
+ready = ->
   set_positions()
   $('.sortable').sortable()
   $('.sortable').sortable().bind 'sortupdate', (e, ui) ->
@@ -23,7 +24,6 @@ ready = ->
       url: '/portfolios/sort'
       data: order: updated_order
     return
-  return 
-  
-$(document).ready ready
+  return
 
+$(document).ready ready
