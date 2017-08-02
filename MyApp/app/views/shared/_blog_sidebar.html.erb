@@ -4,6 +4,16 @@
     <p>I created this blog page to show my improvements on the website as well as referencing my contact information</p>
   </div>
 
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
+  
+
+ <div class="sidebar-module">
+    <h4>Topics</h4>w
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
+  
   <div class="sidebar-module">
     <h4>Elsewhere</h4>
     <ol class="list-unstyled social-links">
