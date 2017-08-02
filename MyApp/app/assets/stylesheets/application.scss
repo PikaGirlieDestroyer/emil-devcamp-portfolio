@@ -30,6 +30,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   color: #fff;
@@ -37,6 +38,16 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
   
 }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6, {
+  font-family: 'Roboto Slab', serif;
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -301,3 +312,4 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
